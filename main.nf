@@ -22,7 +22,7 @@ process transform {
     file("FEMALES.pheno") into females_pheno
     
     """
-    Rscript ${launchDir}/bin/Trans.R ${cov}
+    Rscript ${projectDir}/bin/Trans.R ${cov}
     """
 }
 
